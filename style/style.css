@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+
+/* banner area design */
+.hero-container{
+    max-width: 1220px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(/images/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+}
+header .text-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-content p {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-content h1{
+color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 68px;
+font-weight: 900;
+text-align: center;
+margin-top: 20px;
+}
+
+/* banner area design end */
+
+/* discount area design start */
+
+#discount{
+    width: 750px;
+    height: 806px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 120px;
+
+
+}
+#discount .discount-content h1{
+color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 85px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 35px;
+}
+#discount .discount-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 13px;
+}
+#discount .discount-content h3{
+
+color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+}
+
+#discount .discount-image img{
+    width: 100%;
+    height: 100%;
+}
+/* discount area design end */
+
+
+/* mid-party area design start */
+
+#mid-party{
+    max-width: 1220px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background:  linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(/images/Vectorrr.png);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mid-party .mid-party-left{
+    width: 60%;
+
+}
+
+#mid-party .mid-party-left .tittle{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 61px;
+font-weight: 900;
+line-height: 85px;
+letter-spacing: 11%;
+text-align: left;
+padding-left: 70px;
+margin-bottom: 20px;
+}
+#mid-party .mid-party-left p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 70px;
+    margin-bottom: 30px;
+
+}
+#mid-party .mid-party-left span{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 19px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+padding-left: 70px;
+
+
+}
+
+#mid-party .mid-party-right{
+    width: 40%;
+    text-align: center;
+
+
+
+}
+
+
+/* mid-party area design end */
+
+
+
