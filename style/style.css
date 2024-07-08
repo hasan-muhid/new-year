@@ -389,7 +389,7 @@ text-align: center;
 /* portfolio section design start */
     #portfolio{
     max-width: 1220px;
-    height: 850px;
+    height: 950px;
     margin: 0 auto;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -440,12 +440,108 @@ text-align: left;
     }
 /* portfolio section design end */
 
-/* Newsletter section design start */
 
 
 
 /* Newsletter section design start */
+#Newsletter{
+    max-width: 1220px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 200px;
+    /* margin-bottom: 150px; */
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+#Newsletter .newsletter-text{
+    text-align: center;
+    width: 850px;
+}
+#Newsletter .newsletter-text img{
+    width: 131.25px;
+    height: 137.52px;
+}
+#Newsletter .newsletter-text h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#Newsletter .newsletter-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#newsletter .mail{
+  width: 100%;
+    
+
+}
+input :hover{
+    border: none;
+}
+input {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: -20px;
+}
+  .mail button{
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    border: none;color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  input ::placeholder{
+color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+  }
 /* portfolio section design end */
 
 
